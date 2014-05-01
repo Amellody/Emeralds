@@ -31,6 +31,11 @@ h1,h2,h3,h4,p,span{
 	margin-right: 12px;
 }
 
+.navbar .dropdown i{
+	margin-left: 6px;
+	font-size: 16px;
+}
+
 .navbar-default .navbar-brand {
 	color: #eee;
 	font-size: 32px;
@@ -250,4 +255,26 @@ footer .made-by-li{
 footer i{
 	padding: 0px 6px;
 	color: #FF5050;
+}
+
+/** header for all other pages */
+header {
+	height: 116px;
+	background-color: #ddd;
+}
+
+header h1{
+	margin-top: 54px;
+	font-size: 42px;
+	color: #777;
+	letter-spacing: 3px;
+	border-bottom: 1px solid #77d25f;
+	padding-bottom: 15px;
+}
+
+/** our program */
+
+#our-program{
+	padding-top: 80px;
+	background-color: #eee;
 }
