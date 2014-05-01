@@ -21,13 +21,45 @@
 		<!-- ==============================================
 		Fonts
 		=============================================== -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700,800,300' rel='stylesheet' type='text/css'>
 	
 		<!-- ==============================================
 		JS
 		=============================================== -->
 		<script src="js/jquery-1.11.0.js"></script>	
 		<script src="js/bootstrap.js"></script>	
+		
+		<script>
+			/** used for hovering over the beginner, adults and competitive program */
+			$(document).ready(function(){
+			  $("#SESC-program .beginner").mouseenter(function(){
+				$("#SESC-program .beginner").hide();
+				$("#SESC-program .beginner-hover").show();
+			  });
+			   $("#SESC-program .beginner-hover").mouseleave(function(){
+				$("#SESC-program .beginner-hover").hide();
+				$("#SESC-program .beginner").show();
+			  });
+			  
+			   $("#SESC-program .adult").mouseenter(function(){
+				$("#SESC-program .adult").hide();
+				$("#SESC-program .adult-hover").show();
+			  });
+			   $("#SESC-program .adult-hover").mouseleave(function(){
+				$("#SESC-program .adult-hover").hide();
+				$("#SESC-program .adult").show();
+			  });
+			  
+			  $("#SESC-program .comp-prog").mouseenter(function(){
+				$("#SESC-program .comp-prog").hide();
+				$("#SESC-program .comp-prog-hover").show();
+			  });
+			   $("#SESC-program .comp-prog-hover").mouseleave(function(){
+				$("#SESC-program .comp-prog-hover").hide();
+				$("#SESC-program .comp-prog").show();
+			  });
+			});
+		</script>
 
 	</head>
   
@@ -130,17 +162,17 @@
 				</button>
 			</div>
 		</section>
-		
+		<div class="clearfix"></div>
 		<section class="row-fluid" id="SESC-program">
 			<div class="col-xs-6 rec-prog">
 				<div class="row-fluid">
-					<!--<div class="col-xs-12 beginner">
-						<img style="height:auto; width:auto; max-height:200px;" src="img/flutter.jpg"> no idea how to make this scaleable
+					<div class="col-xs-12 beginner">
+						<!--<img style="height:auto; width:auto; max-height:200px;" src="img/flutter.jpg">-->
 						<div class="text-center main-title">Beginners</div>
-					</div>-->
+					</div>
 					
 					<!--on hover -->
-					<div class="col-xs-12 beginner-hover">
+					<div class="col-xs-12 beginner-hover" style="display: none;">
 						<h2>Beginners</h2> 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue.</p>
 						<div class="btn std-grey">
@@ -151,33 +183,90 @@
 				</div>
 				<div class="row-fluid">
 				
-					<!--
 					<div class="col-xs-12 adult">
-						<img style="height:auto; width:auto; max-height:200px;" src="img/flutter.jpg"> no idea how to make this scaleable
 						<div class="text-center main-title">Adults</div>
-					</div>-->
+					</div>
 					
 					<!-- on hover -->
-					<div class="col-xs-12 adult-hover">
+					<div class="col-xs-12 adult-hover" style="display:none;">
 						<h2>Adults</h2> 
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue.</p>
 					</div>
 				</div>
 			</div>
 			
-			<!--
+
 			<div class="col-xs-6 comp-prog">
 				<div class="text-center main-title">Competitives</div>
-			</div>-->
+			</div>
 			
 			<!-- on hover -->
-			<div class="col-xs-6 comp-prog-hover">
+			<div class="col-xs-6 comp-prog-hover" style="display:none;">
 				<h2>Competitives</h2> 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue.</p>
 			</div>
 		</section>
 		
-		
+		<div class="clearfix"></div>
+		<section id="SESC-hire-us">
+			<div class="row-fluid">
+				<div class="col-xs-8">
+					<h1>Hire Us</h1>
+					
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue.
+					</p>
+					<button class="btn std-green">
+						<span>Find Out More <i class="fa fa-chevron-right"></i></span>
+					</button>
+				</div>
+				<div class="col-xs-3 col-xs-offset-1">
+					<img src="img/jodie-erica-1.png">
+				</div>
+				
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<section class="site-map">
+		  <div class="row-fluid">
+			<div class="col-xs-10 col-xs-offset-1">
+				<div class="row-fluid">
+					<div class="col-xs-2">
+						<h4>About Us</h4>
+						<p>The Club</p>
+						<p>The Team</p>
+					</div>
+					<div class="col-xs-2">
+						<h4>Our Program</h4>
+						<p>Beginners</p>
+						<p>Adults Recreational</p>
+						<p>Competitive</p>
+					</div>
+					<div class="col-xs-2">
+						<h4>Timeline</h4>
+						<p>2014</p>
+						<p>2013</p>
+						<p>2012</p>
+					</div>
+					<div class="col-xs-2">
+						<h4>Hire Us</h4>
+					</div>
+					<div class="col-xs-2">
+						<h4>Shop</h4>
+					</div>
+					<div class="col-xs-2">
+						<h4>Contact Us</h4>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</section>
+		<div class="clearfix"></div>
+		<footer>
+			<div class="copyright">Copyright Sydney Emeralds Synchro Club</div>
+			<div class="made-by-li">designed with<i class="fa fa-heart"></i>by Liching Yew</div>
+		</footer>
 	</body>
+	
 	
 </html>
