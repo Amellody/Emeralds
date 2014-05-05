@@ -12,6 +12,11 @@ h1,h2,h3,h4,p,span{
 /** Start of Navbar **/
 
 .navbar.navbar-default{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
 	background-color: #191919;
 	border: 0px;
 	border-radius: 0px;
@@ -70,6 +75,9 @@ h1,h2,h3,h4,p,span{
 	background-color: #191919;
 	padding: 0px;
 }
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
 
 .dropdown-menu > li > a{
 	padding: 6px 20px;
@@ -98,6 +106,16 @@ h1,h2,h3,h4,p,span{
 	background-color: #eee;
 }
 
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height:100%;}
+.fill{
+	width:100%;
+	height:100%;
+	background-position:top;
+	background-size:cover;
+	padding: 0px;
+}
+
 .left.carousel-control .fa-chevron-left, .right.carousel-control .fa-chevron-right{
 	padding-top: 400px;
 }
@@ -106,7 +124,6 @@ h1,h2,h3,h4,p,span{
 #club-intro{
 	background-color: #eee;
 	padding-top: 36px;
-	height: 450px; /** this should not be hard coded */
 }
 
 #club-intro h1{
@@ -117,18 +134,19 @@ h1,h2,h3,h4,p,span{
 #club-intro p{
 	font-size: 16px;
 	color: #7d7d7d;
+	font-weight: 400;
 }
 
 .btn.std-green{
-	margin-left: 45%; /** hard coded, text-center dosent work */
-	margin-top: 24px;
 	border-radius: 0px;
-	border: 4px solid #77d25f; 
+	border: 4px solid #77d25f;
 	padding: 12px;
-	color: #77d25f; 
+	color: #77d25f;
 	font-size: 18px;
 	font-weight: 600;
 	background-color: transparent;
+	display: block;
+	margin: 24px auto;
 }
 
 /** index page: our program section */
@@ -146,7 +164,9 @@ h1,h2,h3,h4,p,span{
 }
 
 #SESC-program .rec-prog .beginner-hover, #SESC-program .rec-prog .adult-hover, #SESC-program .comp-prog-hover{
-	/**background-image:url('../img/flutter.jpg'); it looks terrible! does not scale! >< */
+	background-image:url('../img/flutter.jpg');
+	background-size:cover;
+	background-position:center; 
 	color: #5c5c5c;
 	background-color:  aliceblue;
 	padding: 12px 24px;
@@ -186,7 +206,6 @@ h1,h2,h3,h4,p,span{
 /** index hire us section */
 
 #SESC-hire-us{
-	height: 350px;
 	background-color: #eee; 
 	padding: 36px;
 }
