@@ -287,3 +287,188 @@ header h1{
 	padding-top: 80px;
 	background-color: #eee;
 }
+
+/** style.css for the our-programs section in the index page*/
+a {
+	text-decoration: none;
+}
+a:active {
+	outline:none;	
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.ccr-pricing-table {
+	display: block;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	margin: 50px 0;
+	border:1px solid #ccc;
+}
+.ccr-pricing-table:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	box-shadow: 0px 0px 13px 2px #d7d7d7;
+}
+
+#SESC-program .title {
+	background: #77d25f;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	padding: 24px 0;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	position: relative;
+}
+
+#SESC-program  .image{
+	position: relative;
+}
+
+#SESC-program img{
+	width: 100%;
+}
+
+#SESC-program ul{
+	padding-left: 0px;
+}
+
+.ccr-price-value {
+	font-size: 54px;
+	color: #504f4f;
+	border-radius: 100%;
+	width: 120px;
+	height: 120px;
+	line-height: 102px;
+	text-align: center;
+	position: absolute;
+	left: 25%;
+	top: -60px;
+	border: 4px solid #fff;
+	box-shadow: inset 0px 5px 13px -4px #585858;
+	text-shadow: 1px 1px 0px #fff;
+	background: #dedede; /* Old browsers */
+	background: -moz-linear-gradient(top, #dedede 0%, #b4b4b4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dedede), color-stop(100%,#b4b4b4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #dedede 0%,#b4b4b4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #dedede 0%,#b4b4b4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #dedede 0%,#b4b4b4 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #dedede 0%,#b4b4b4 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dedede', endColorstr='#b4b4b4',GradientType=0 ); /* IE6-9 */
+}
+.ccr-pricing-table:hover .ccr-price-value {
+	background: #f37d80; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f37d80 0%, #e95a5e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f37d80), color-stop(100%,#e95a5e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f37d80 0%,#e95a5e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f37d80 0%,#e95a5e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f37d80 0%,#e95a5e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f37d80 0%,#e95a5e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f37d80', endColorstr='#e95a5e',GradientType=0 ); /* IE6-9 */
+	color: #fff;
+	text-shadow: none;
+	text-shadow: 1px 1px 0px #e33a3f;
+	box-shadow: inset 0px 5px 5px 0px #d95356;
+}
+.ccr-price-list li {
+	list-style: none;
+	text-align: center;
+	border-top:1px solid #F1F1F1;
+	color: #504f4f;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.ccr-price-list li:hover {
+	background: #77d25f;
+	color: #fff;
+	border-top:1px solid #fff;
+}
+.ccr-price-list li {
+	line-height: 50px;
+	font-size: 16px;
+	position: relative;
+}
+.ccr-price-host {
+	background: #19c8a7;
+	border:0px;
+	color: #fff;
+	font-size: 20px;
+	padding:5px 20px;
+	text-align: center;
+	margin: 10px auto 20px auto;
+	display: table;
+}
+.ccr-price-host:hover {
+	background: #e9595d;
+}
+.ccr-price-hover {
+	display: inline-block;
+	
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;	
+}
+.ccr-price-list li:hover .bubble:after 
+{
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 10px 10px 0;
+	border-color: #569744 transparent;
+	display: block;
+	width: 0;
+	z-index: -100;
+	left: -15px;
+	top: 45px;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.ccr-price-list li:hover .ccr-price-hover {
+	position: absolute;
+	width: 12px;
+	height: 50px;
+	background: #19c8a7;
+	z-index: 100;
+	left:-10px;
+}
+.ccr-price-list li:hover {
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.ccr-price-list li:hover:before {
+	content:"";
+	background: #77d25f;
+	position: absolute;
+	width: 12px;
+	height: 50px;
+	z-index: 100;
+	left:-10px;
+	border-color: #0d9077 transparent;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+
+/** end of style.css **/
