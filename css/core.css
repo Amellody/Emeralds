@@ -106,16 +106,6 @@ h1,h2,h3,h4,p,span{
 	background-color: #eee;
 }
 
-.carousel,.item,.active{height:100%;}
-.carousel-inner{height:100%;}
-.fill{
-	width:100%;
-	height:100%;
-	background-position:top;
-	background-size:cover;
-	padding: 0px;
-}
-
 .left.carousel-control .fa-chevron-left, .right.carousel-control .fa-chevron-right{
 	padding-top: 400px;
 }
