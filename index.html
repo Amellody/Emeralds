@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+	<head>
+
+		<!-- ==============================================
+		Title and Meta Tags
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>Sydney Emeralds Synchro Club</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" type="image/png" href="img/SESC-logo-pattern.png"/>
+		
+		<!-- ==============================================
+		CSS
+		=============================================== -->    
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/core.css">
+		
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700,800,300' rel='stylesheet' type='text/css'>
+	
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script src="js/jquery-1.11.0.js"></script>	
+		<script src="js/bootstrap.js"></script>	
+		
+		<script>
+			/** used for hovering over the beginner, adults and competitive program */
+			$(document).ready(function(){
+			  $("#SESC-program .beginner").mouseenter(function(){
+				$("#SESC-program .beginner").hide();
+				$("#SESC-program .beginner-hover").show();
+			  });
+			   $("#SESC-program .beginner-hover").mouseleave(function(){
+				$("#SESC-program .beginner-hover").hide();
+				$("#SESC-program .beginner").show();
+			  });
+			  
+			   $("#SESC-program .adult").mouseenter(function(){
+				$("#SESC-program .adult").hide();
+				$("#SESC-program .adult-hover").show();
+			  });
+			   $("#SESC-program .adult-hover").mouseleave(function(){
+				$("#SESC-program .adult-hover").hide();
+				$("#SESC-program .adult").show();
+			  });
+			  
+			  $("#SESC-program .comp-prog").mouseenter(function(){
+				$("#SESC-program .comp-prog").hide();
+				$("#SESC-program .comp-prog-hover").show();
+			  });
+			   $("#SESC-program .comp-prog-hover").mouseleave(function(){
+				$("#SESC-program .comp-prog-hover").hide();
+				$("#SESC-program .comp-prog").show();
+			  });
+			});
+		</script>
+
+		<style>
+		.carousel,.item,.active{
+			height:100%;
+		}
+		.carousel-inner{
+			height:100%;
+		}
+		.fill{
+			width:100%;
+			height:100%;
+			background-position:top;
+			background-size:cover;
+			padding: 0px;
+		}
+		</style>
+
+	</head>
+  
+	<body>
+	
+		<!--top navbar-->
+		<nav class="navbar navbar-default" role="navigation">
+		  <div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="#"><img src="img/SESC-logo-pattern.png" id="nav-logo"><div>SYDNEY EMERALDS</div></a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+			  <ul class="nav navbar-nav navbar-right">
+				<!--<li class="active"><a href="#">About Us</a></li>-->
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<i class="fa fa-caret-down"></i></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">The Club</a></li>
+					<li><a href="#">The Team</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Program<i class="fa fa-caret-down"></i></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">Beginners</a></li>
+					<li><a href="#">Adult Recreational</a></li>
+					<!--<li class="divider"></li>-->
+					<li><a href="#">Competitive</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Timeline<i class="fa fa-caret-down"></i></a>
+				  <ul class="dropdown-menu">
+					<li><a href="#">2014</a></li>
+					<li><a href="#">2013</a></li>
+					<!--<li class="divider"></li>-->
+					<li><a href="#">2012</a></li>
+				  </ul>
+				</li>
+				<li><a href="#">Hire Us</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">Contact Us</a></li>
+				
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		<div class="container fill">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			
+			  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			  </ol>
+			  
+			  <div class="carousel-inner">
+				<div class="active item">
+				  <div class="fill" style="background-image:url('img/index-carousel/prenationals.jpg');">
+					<div class="carousel-caption">
+						<h3>Brisbane Nationals 2014</h3>
+						<p>The Sydney Emeralds are expected to compete at this event</p>
+					</div>
+				  </div>
+				</div>
+				<div class="item">
+				  <div class="fill" style="background-image:url('img/index-carousel/combo-with-li.jpg');">
+					<div class="carousel-caption">
+						<h3>Congratulations to the Emerald penguins with exceptional performance at the Brisbane Nationals</h3>
+						<p>Our Penguin themed combo came first in the division B catehory.</p>
+					</div>
+				  </div>
+				</div>
+				<div class="item">
+				  <div class="fill" style="background-image:url('img/index-carousel/jodie-erica-eb.jpg');">
+					<div class="carousel-caption">
+						<h3>Jodie and Erica to compete in Oceania 2014</h3>
+						<p>Support our Emeralds as they prepare to compete in upcoming Oceania Championships in New Zealand</p> 
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<i class="fa fa-chevron-left"></i>
+			  </a>
+			  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<i class="fa fa-chevron-right"></i>
+			  </a>
+			</div>
+		</div>
+		
+		<section id="club-intro">
+			<h1 class="text-center">Sydney Emeralds Synchro Club</h1>
+			
+			<div class="col-xs-10 col-xs-offset-1">
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue. Proin eget massa eu est fringilla condimentum eget quis tellus. Morbi dignissim vel odio sed malesuada. Sed ornare purus tortor, a commodo purus suscipit congue. Proin fringilla luctus magna nec pharetra.</p>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue. Proin eget massa eu est fringilla condimentum eget quis tellus. Morbi dignissim vel odio sed malesuada. Sed ornare purus tortor, a commodo purus suscipit congue. Proin fringilla luctus magna nec pharetra.</p>
+				
+				<button class="btn std-green">
+					<span>Find Out More <i class="fa fa-chevron-right"></i></span>
+				</button>
+			</div>
+			<div class="clearfix"></div>
+		</section>
+		<div class="clearfix"></div>
+		
+		<section class="row-fluid" id="SESC-program">
+			<!--to be filled with new panels -->
+			<div class="container">
+				<div class="row pricing">
+				  <div class="col-md-4 col-sm-6">
+					<div class="ccr-pricing-table">
+						<h2 class="title">Beginners</h2>
+						<img src="img/beginner.jpg">
+						<ul class="ccr-price-list">
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+						</ul>
+					  <button class="btn std-green">
+						<span>Find Out More <i class="fa fa-chevron-right"></i></span>
+					  </button>
+					</div> <!-- /.program-table-beginners -->
+				  </div>
+				  
+				  <div class="col-md-4 col-sm-6">
+					<div class="ccr-pricing-table">
+						<h2 class="title">Adults Recreational</h2>
+					  <img src="img/adults.jpg">
+						<ul class="ccr-price-list">
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+						</ul>
+					  <button class="btn std-green">
+						<span>Find Out More <i class="fa fa-chevron-right"></i></span>
+					  </button>
+					</div> <!-- /.program table Adults Recreational -->
+				  </div>
+				  <div class="col-md-4 col-sm-6">
+					<div class="ccr-pricing-table green">
+						<h2 class="title">Competitive</h2>
+					  <img src="img/competitive-lift.jpg">
+						<ul class="ccr-price-list">
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+							<li><span class="bubble"></span>Lorem ipsum dolor sit amet</li>
+						</ul>
+					  <button class="btn std-green">
+						<span>Find Out More <i class="fa fa-chevron-right"></i></span>
+					  </button>
+					</div> <!-- /.program table competitive -->
+				  </div>
+				</div>
+			  </div>
+		</section>
+		
+		<div class="clearfix"></div>
+		<section id="SESC-hire-us">
+			<div class="row-fluid">
+				<div class="col-xs-8">
+					<h1>Hire Us</h1>
+					
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et velit in odio aliquam facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nisi enim. Morbi venenatis, orci vel auctor eleifend, nibh turpis dignissim orci, et porttitor nisi dui quis augue.
+					</p>
+					<button class="btn std-green">
+						<span>Find Out More <i class="fa fa-chevron-right"></i></span>
+					</button>
+				</div>
+				<div class="col-xs-3 col-xs-offset-1">
+					<img src="img/jodie-erica-1.png">
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<section class="site-map">
+		  <div class="row-fluid">
+			<div class="col-xs-10 col-xs-offset-1">
+				<div class="row-fluid">
+					<div class="col-xs-2">
+						<h4>About Us</h4>
+						<p>The Club</p>
+						<p>The Team</p>
+					</div>
+					<div class="col-xs-2">
+						<h4>Our Program</h4>
+						<p>Beginners</p>
+						<p>Adults</p>
+						<p>Competitive</p>
+					</div>
+					<div class="col-xs-2">
+						<h4>Timeline</h4>
+						<p>2014</p>
+						<p>2013</p>
+						<p>2012</p>
+					</div>
+					<div class="col-xs-2">
+						<h4>Hire Us</h4>
+					</div>
+					<div class="col-xs-2">
+						<h4>Shop</h4>
+					</div>
+					<div class="col-xs-2">
+						<h4>Contact Us</h4>
+					</div>
+				</div>
+			</div>
+		  </div>
+		</section>
+		<div class="clearfix"></div>
+		<footer>
+			<div class="copyright">Copyright Sydney Emeralds Synchro Club 2014</div>
+			<div class="made-by-li">designed with<i class="fa fa-heart"></i>by Liching Yew</div>
+		</footer>
+	</body>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-50652554-2', 'liching21.github.io');
+	  ga('send', 'pageview');
+
+	</script>
+	<script>
+		$('.carousel').carousel({
+		  interval: 5000
+		})
+	</script>
+	
+</html>
