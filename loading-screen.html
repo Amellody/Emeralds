@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js fullscreen">
+	<head>
+
+		<!-- ==============================================
+		Title and Meta Tags
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>Sydney Emeralds Synchro Club</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="shortcut icon" type="image/png" href="img/SESC-logo-pattern.png"/>
+		
+		<!-- ==============================================
+		CSS
+		=============================================== -->    
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/core.css">
+		
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,300,400,600,700,800,300' rel='stylesheet' type='text/css'>
+	
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script src="js/jquery-1.11.0.js"></script>	
+		<script src="js/bootstrap.js"></script>
+
+		<style>
+			#loading {
+			  width: 100%;
+			  height: 100%;
+			  top: 0px;
+			  left: 0px;
+			  position: fixed;
+			  display: block;
+			  opacity: 0.7;
+			  background-color: #fff;
+			  z-index: 99;
+			  text-align: center;
+			}
+
+			#loading-image {
+			  position: absolute;
+			  top: 100px;
+			  left: 240px;
+			  z-index: 100;
+			}
+		</style>
+	</head>
+
+	<!-- original code -->
+	<body class="fullscreen">
+
+		<!-- from stack overflow
+		<div id="loading">
+		  <img id="loading-image" src="images/ajax-loader.gif" alt="Loading..." />
+		</div>
+
+		<div class="loading-screen">
+
+		</div>-->
+
+		<!-- my code -->
+		<div class="loading-screen">
+			<div class="content">
+
+				<div class="row-container">
+					<div class="row-fluid">
+
+						<img src="img/SESC-logo-pattern.png">
+
+						<!-- leave out
+						<div class="col-xs-3">
+							<img src="img/SESC-logo-pattern.png">
+						</div>
+						<div class="col-xs-9">
+							<h3>Loading...</h3>
+							<div class="progress">
+
+ 								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+ 									60%
+ 								</div>
+ 							</div>
+						</div>
+
+						-->
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--
+		<script language="javascript" type="text/javascript">
+		  $(window).load(function() {
+		    $('#loading').hide();
+		  });
+		</script>-->
+
+	</body>
+
+</html>

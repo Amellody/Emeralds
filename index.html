@@ -61,26 +61,47 @@
 			});
 		</script>
 
+		<!-- For Loading screen
 		<style>
-		.carousel,.item,.active{
-			height:100%;
-		}
-		.carousel-inner{
-			height:100%;
-		}
-		.fill{
-			width:100%;
-			height:100%;
-			background-position:top;
-			background-size:cover;
-			padding: 0px;
-		}
+			#page-content{
+				display: none;
+			}
+		</style>-->
+
+		<!-- For carousel-->
+		<style>
+			.carousel,.item,.active{
+				height:100%;
+			}
+			.carousel-inner{
+				height:100%;
+			}
+			.fill{
+				width:100%;
+				height:100%;
+				background-position:top;
+				background-size:cover;
+				padding: 0px;
+			}
 		</style>
 
 	</head>
   
 	<body>
+
+		<!--loading screen - work in progress
+		<div class="fullscreen" id="loading">
+		  <div class="loading-screen">
+			<div class="content">
+			  <div class="row-container">
+				<img src="img/SESC-logo-pattern.png">
+			  </div>
+			</div>
+		  </div>
+		</div>
 	
+	  <div id="page-content">-->
+
 		<!--top navbar-->
 		<nav class="navbar navbar-default" role="navigation">
 		  <div class="container">
@@ -308,8 +329,18 @@
 			<div class="copyright">Copyright Sydney Emeralds Synchro Club 2014</div>
 			<div class="made-by-li">designed with<i class="fa fa-heart"></i>by Liching Yew</div>
 		</footer>
+
+	  <!-- </div><!-- to load later -->
 	</body>
 	
+	<!-- Loading screen
+	<script language="javascript" type="text/javascript">
+	  $(window).load(function() {
+	    $('#loading').hide();
+	    $('#page-content').show();
+	  });
+	</script>-->
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
