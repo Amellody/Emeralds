@@ -1,0 +1,33 @@
+===========================================
+Author: Liching Yew
+Title: Current SESC website bugs
+===========================================
+
+=============
+Misc jobs
+=============
+
+o Move Navbar into a seperate html / php file. (more complicated than I thought)
+
+=============
+Index Page
+=============
+
+o Need to fix the loading screen, currently in conflict with the carousel.
+o NavBar - Displays sub category upon click instead of hover
+o NavBar - Goes to respective pages upon clicking link.
+o Navbar - Mobile compatibility
+o Enter actual text
+
+=============
+The Club
+=============
+
+o Enter Actual Information
+
+=============
+Our Program
+=============
+
+o Update information
+o after selecting category, category get underlined. :S
