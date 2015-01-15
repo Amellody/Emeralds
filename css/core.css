@@ -278,12 +278,32 @@ header {
 	margin: 48px 0px;
 }
 
-#our-program .title{
+#our-program .title, #our-team h2{
 	font-size: 30px;
 	padding: 24px;
 	margin-bottom: 0px;
 	color: #666;
+	letter-spacing: 3px;
 }
+
+#our-team h2{
+	padding: 24px 24px 50px 0px;
+}
+
+#our-team h3{
+	font-size: 18px;
+	color: #777;
+	letter-spacing: 3px;
+	margin-top: 24px;
+	margin-left: 24px;
+}
+
+#our-team p{
+	font-size: 14px;
+	color: #777;
+	margin: 12px 0px 12px 24px;
+}
+
 
 #our-program .list-group{
 	margin-top: 20px;
@@ -323,7 +343,7 @@ header h1{
 
 /** our program */
 
-#our-program{
+#our-program, #our-team{
 	padding-top: 80px;
 	background-color: #eee;
 }
@@ -513,6 +533,32 @@ a:hover {
 	-o-transition: all .3s;
 	transition: all .3s;
 }
+
+/**Our Team**/
+
+#our-team .profile{
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #77d25f;
+	padding: 0px;
+	background-color: #eee;
+}
+
+#our-team .profile-pic, #our-team .profile-content{
+	padding: 0px;
+}
+
+#our-team .profile img{
+	width: 100%;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+#our-team .profile-content{
+	
+}
+
 
 /**loading screen**/
 

@@ -8,6 +8,7 @@ Misc jobs
 =============
 
 o Move Navbar into a seperate html / php file. (more complicated than I thought)
+o Input media queries on all pages
 
 =============
 Index Page
@@ -31,3 +32,9 @@ Our Program
 
 o Update information
 o after selecting category, category get underlined. :S
+
+=============
+Our Program
+=============
+
+o when the screen resizes, the height of the profile pic is stuck.
