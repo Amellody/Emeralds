@@ -298,7 +298,7 @@ header {
 	margin-left: 24px;
 }
 
-#our-team p{
+#our-team p, #contact-us p{
 	font-size: 14px;
 	color: #777;
 	margin: 12px 0px 12px 24px;
@@ -343,7 +343,7 @@ header h1{
 
 /** our program */
 
-#our-program, #our-team{
+#our-program, #our-team, #contact-us{
 	padding-top: 80px;
 	background-color: #eee;
 }
@@ -591,6 +591,12 @@ a:hover {
 
 .loading-screen .row-container img{
 	width: 30%;
+}
+
+/** contact-us **/
+
+#contact-us form{
+	padding-top: 50px;
 }
 
 /** end of style.css **/
