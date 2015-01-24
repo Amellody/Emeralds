@@ -310,7 +310,7 @@ header {
 
 #the-club .bottom-txt{
 	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 }
 
 
@@ -352,7 +352,7 @@ header h1{
 
 /** our program */
 
-#our-program, #our-team, #contact-us, #the-club{
+#our-program, #our-team, #contact-us, #the-club, #timeline{
 	padding-top: 80px;
 	background-color: #eee;
 }
