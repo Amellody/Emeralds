@@ -290,7 +290,7 @@ header {
 	padding: 24px 24px 50px 0px;
 }
 
-#our-team h3{
+#our-team h3, {
 	font-size: 18px;
 	color: #777;
 	letter-spacing: 3px;
@@ -298,10 +298,19 @@ header {
 	margin-left: 24px;
 }
 
-#our-program p, #our-team p, #contact-us p{
+#our-program p, #our-team p, #contact-us p, #the-club p{
 	font-size: 14px;
 	color: #777;
 	margin: 12px 0px 12px 24px;
+}
+
+#the-club li{
+	color: #777;
+}
+
+#the-club .bottom-txt{
+	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 
@@ -343,7 +352,7 @@ header h1{
 
 /** our program */
 
-#our-program, #our-team, #contact-us{
+#our-program, #our-team, #contact-us, #the-club{
 	padding-top: 80px;
 	background-color: #eee;
 }
