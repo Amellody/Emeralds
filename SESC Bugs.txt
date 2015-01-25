@@ -21,12 +21,6 @@ o Navbar - Mobile compatibility
 o Enter actual text
 
 =============
-The Club
-=============
-
-o Enter Actual Information
-
-=============
 Our Program
 =============
 
@@ -34,7 +28,15 @@ o Update information
 o after selecting category, category get underlined. :S
 
 =============
-Our Program
+Our Team
 =============
 
 o when the screen resizes, the height of the profile pic is stuck.
+
+=============
+Timeline
+=============
+
+o A ton of work! ><
+o a scroll bar if the results get too long
+o how to include main image in the list?

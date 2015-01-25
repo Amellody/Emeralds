@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Gallery With Auto Slide and Loop</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <link rel="stylesheet"  href="css/lightGallery.css"/>
+    <style>
+    	ul{
+			list-style: none outside none;
+		    padding-left: 0;
+		}
+		.gallery li {
+			display: block;
+			float: left;
+			height: 100px;
+			margin-bottom: 6px;
+			margin-right: 6px;
+			width: 100px;
+		}
+		.gallery li a {
+			height: 100px;
+			width: 100px;
+		}
+		.gallery li a img {
+			max-width: 100px;
+		}
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/lightGallery.js"></script>
+    <script>
+    	 $(document).ready(function() {
+			$("#lightGallery").lightGallery();
+		});
+    </script>
+</head>
+<body>
+	<ul id="lightGallery" class="gallery">
+        <li data-src="img/jodie-erica-1.png"> 
+        	<a href="#">
+            <img src="img/jodie-erica-1.png" />
+            </a> 
+        </li>
+        <li data-src="img/jodie-erica-states-duet.jpg" > 
+        	<a href="#">
+            <img src="img/thumb-1.jpg" />
+            </a> 
+        </li>
+        <li data-src="img/index-carousel/prenationals.jpg"> 
+        	<a href="#">
+            <img src="img/thumb-2.jpg" />
+            </a> 
+        </li>
+        <li data-src="img/combo-states.jpg" > 
+        	<a href="#">
+            <img src="img/thumb-3.jpg" />
+            </a> 
+        </li>
+        <li data-src="img/duet-heli.jpg" > 
+            <a href="#">
+            <img src="img/thumb-4.jpg" />
+            </a> 
+        </li>
+    </ul>	
+</body>
