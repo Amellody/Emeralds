@@ -75,10 +75,6 @@ h1,h2,h3,h4,p,span{
 	background-color: #191919;
 	padding: 0px;
 }
-.dropdown:hover .dropdown-menu{
-	display: block;
-	margin-top: 9px;
-}
 
 .dropdown-menu > li > a{
 	padding: 6px 20px;
@@ -290,7 +286,7 @@ header {
 	padding: 24px 24px 50px 0px;
 }
 
-#our-team h3, {
+#our-team h3{
 	font-size: 18px;
 	color: #777;
 	letter-spacing: 3px;
@@ -552,6 +548,8 @@ a:hover {
 	border-color: #77d25f;
 	padding: 0px;
 	background-color: #eee;
+	width: 545px;
+	height: 186px;
 }
 
 #our-team .profile-pic, #our-team .profile-content{
@@ -562,6 +560,10 @@ a:hover {
 	width: 100%;
 	border-top-left-radius:10px;
 	border-bottom-left-radius:10px;
+}
+
+.list-inline > li{
+	padding-left: 0px;
 }
 
 #our-team .profile-content{
@@ -619,6 +621,9 @@ a:hover {
 #contact-us button{
 	margin-top: 50px;
 }
+
+a:hover, a:focus{
+ text-decoration: inherit;
 }
 
 /** end of style.css **/
