@@ -160,7 +160,7 @@
 						<div class="green-line"></div>
 		          	    <p>We are also looking for new swimmers to take our Free TRIAL SESSION which is running on Saturday (from 31.1.2015), 12.30pm – 2.00pm at Monte College, North Sydney! Everyone is welcome!</p>
 		          	    <div class="text-center"><i class="fa fa-chevron-down"></i></div>
-		          	    <div class="toggle-space" style="height: 12px; display:none;"></div>
+		          	    <div id="toggle-space" style="height: 12px; display:none;"></div>
 					  </a>
 		          	</div>
 
@@ -317,7 +317,6 @@
 						<div class="green-line"></div>
 		          	    <p>The New South Whales States Championships were on on the 2nd of March 2014, at  MLC Buwood. the participating clubs were the Sydney Emeralds and the Central Coast Crystals.</p>
 		          	    <div class="text-center"><i class="fa fa-chevron-down"></i></div>
-		          	    <div class="toggle-space" style="height: 12px; display:none;"></div>
 					  </a>
 		          	   
 		          	</div>
@@ -774,7 +773,7 @@
 		$(function () {
 		  $("#panel-1").hover(
 		  	function () {
-		  		$(".toggle-space").slideToggle();
+		  		$("#toggle-space").slideToggle();
 		  	});
 		});
 
@@ -782,7 +781,7 @@
 		  $("#panel-1").click(
 		  	function () {
 		  		$("#panel-1 i").hide();
-		  		$(".toggle-space").hide();
+		  		$("#toggle-space").hide();
 		  	});
 		});
 
