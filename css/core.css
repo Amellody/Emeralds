@@ -67,7 +67,7 @@ h1,h2,h3,h4,p,span{
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
-	color: #77d25f;
+	color: #79C266;
 	background-color: transparent;
 }
 
@@ -82,18 +82,18 @@ h1,h2,h3,h4,p,span{
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-	color: #77d25f;
+	color: #79C266;
 	background-color: #191919;
 }
 
 /** active navbar item */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #77d25f;
+	color: #79C266;
 	background-color: transparent;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
-	color: #77d25f;
+	color: #79C266;
 	background-color: transparent;
 	padding-bottom: 24px;
 }
@@ -115,7 +115,7 @@ h1,h2,h3,h4,p,span{
 
 #club-intro h1{
 	margin-bottom: 48px;
-	color: #77d25f;
+	color: #79C266;
 }
 
 #club-intro p{
@@ -126,9 +126,9 @@ h1,h2,h3,h4,p,span{
 
 .btn.std-green{
 	border-radius: 0px;
-	border: 4px solid #77d25f;
+	border: 4px solid #79C266;
 	padding: 12px;
-	color: #77d25f;
+	color: #79C266;
 	font-size: 18px;
 	font-weight: 600;
 	background-color: transparent;
@@ -198,7 +198,7 @@ h1,h2,h3,h4,p,span{
 }
 
 #SESC-hire-us h1{
-	color: #77d25f;
+	color: #79C266;
 	margin-bottom: 36px;
 }
 
@@ -220,7 +220,7 @@ h1,h2,h3,h4,p,span{
 
 .site-map{
 	height: 200px;
-	background-color: #77d25f;
+	background-color: #79C266;
 	padding: 36px 0px;
 }
 
@@ -315,8 +315,8 @@ header {
 }
 
 #our-program .list-group-item.active{
-	background-color: #77d25f;
-	border-color: #77d25f;
+	background-color: #79C266;
+	border-color: #79C266;
 }
 
 #our-program .list-group-item.active h3{
@@ -329,7 +329,7 @@ header {
 }
 
 #our-program .list-group-item i:hover{
-	color: #77d25f;
+	color: #79C266;
 }
 
 #our-program img{
@@ -342,7 +342,7 @@ header h1{
 	font-size: 42px;
 	color: #777;
 	letter-spacing: 3px;
-	border-bottom: 1px solid #77d25f;
+	border-bottom: 1px solid #79C266;
 	padding-bottom: 15px;
 }
 
@@ -385,7 +385,7 @@ a:hover {
 }
 
 #SESC-program .title {
-	background: #77d25f;
+	background: #79C266;
 	font-size: 28px;
 	color: #fff;
 	text-align: center;
@@ -458,7 +458,7 @@ a:hover {
 	transition: all .3s;
 }
 .ccr-price-list li:hover {
-	background: #77d25f;
+	background: #79C266;
 	color: #fff;
 	border-top:1px solid #fff;
 }
@@ -525,7 +525,7 @@ a:hover {
 }
 .ccr-price-list li:hover:before {
 	content:"";
-	background: #77d25f;
+	background: #79C266;
 	position: absolute;
 	width: 12px;
 	height: 50px;
@@ -545,7 +545,7 @@ a:hover {
 	border-radius: 10px;
 	border-style: solid;
 	border-width: 3px;
-	border-color: #77d25f;
+	border-color: #79C266;
 	padding: 0px;
 	background-color: #eee;
 	width: 545px;
@@ -615,7 +615,7 @@ a:hover {
 }
 
 .form-control:focus{
-	border-color: #77d25f;
+	border-color: #79C266;
 }
 
 #contact-us button{
